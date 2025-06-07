@@ -19,7 +19,7 @@ struct Point {
     double y;
     Point(double xCoordinate = 0, double yCoordinate = 0) : x(xCoordinate), y(yCoordinate) {}
 };
-
+//logic
 class AxisAlignedPolygonOptimizer {
 private:
     vector<Building>& buildingList;
